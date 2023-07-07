@@ -1,5 +1,7 @@
 <?php
 
+namespace Egarciarey1981\Math;
+
 class Math
 {
     public function add(int $x, int $y): int
