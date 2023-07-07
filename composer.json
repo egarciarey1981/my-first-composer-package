@@ -1,0 +1,10 @@
+{
+    "name": "egarciarey1981/math",
+    "description": "My first Composer Package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Egarciarey1981\\Math\\": "src/"
+        }
+    }
+}
