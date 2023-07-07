@@ -27,7 +27,7 @@ Para que todo el código que hagamos se considere una biblioteca, hay que crear 
 
 NOTA
 
-El repositorio (<var>egarciarey1981/my-first-composer-package</var>) y la bibliteca (<var>egarciarey1981/math</var>) se llaman distinto.
+El repositorio (<var>egarciarey1981/my-first-composer-package</var>) y la bibliteca (<var>egarciarey1981/math</var>) se llaman distinto. Para utilizar la biblioteca hay que utilizar su namespace (<var>Egarciarey1981\Math</var>).
 
 
 
@@ -65,8 +65,8 @@ Comprueba la carpeta que en la carpeta <var>vendor</var> se emcuentra la bibliot
 Ya cualquier otra biblioteca de terceros, podemos usarla importando la biblioteca.
 
 ```
-use Egarciarey\Math\Add;
+use Egarciarey\Math;
 
-$add = new Add();
+$add = new Math\Add();
 $result = $add(2, 3);
 ```
