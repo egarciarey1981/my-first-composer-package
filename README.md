@@ -62,7 +62,7 @@ versionada (no he puesto en qué versión está, por ejemplo la 0.1.0).
 Comprueba la carpeta que en la carpeta <var>vendor</var> se emcuentra la biblioteca.
 ## Uso
 
-Ya cualquier otra biblioteca de terceros, podemos usarla importando la biblioteca.
+Como con cualquier otra biblioteca de terceros, podemos usarla importando la biblioteca.
 
 ```
 use Egarciarey\Math;
